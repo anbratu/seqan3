@@ -27,14 +27,12 @@ Most good tutorials start with an easy *Hello World!* program. So have a look:
 \snippet introduction_hello_world.cpp hello
 
 \note
-
-# This is a code snippet. You will see many code snippets in our documentation.
-# Most of them are compilable as-is, but some are only valid in their context,
-# e.g. they depend on other code snippets given before/after the current one or
-# other statements implied by the text. 
-# This information no longer necessary, because all code snippets should be complete (regarding to agreement).
-
-You can copy'n'paste freely from the code snippets, this implies no copyright-obligations (however distributing SeqAn or an application using it does, see [Copyright](https://docs.seqan.de/seqan/3-master-user/about_copyright.html) and [Citing](https://docs.seqan.de/seqan/3-master-user/about_citing.html)).
+This is a code snippet. You will see many code snippets in our documentation.
+Most of them are compilable as-is, but some are only valid in their context,
+e.g. they depend on other code snippets given before/after the current one or
+other statements implied by the text. You can copy'n'paste freely from these examples,
+this implies no copyright-obligations (however distributing SeqAn or an application
+using it does, see [Copyright](https://docs.seqan.de/seqan/3-master-user/about_copyright.html) and [Citing](https://docs.seqan.de/seqan/3-master-user/about_citing.html).
 
 You may ask, why we do not use std::cout or std::cerr for console output.
 Actually, for the given text it does not make a difference since seqan3::debug_stream prints to std::cerr as well.
